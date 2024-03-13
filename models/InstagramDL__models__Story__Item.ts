@@ -1,0 +1,70 @@
+/* generated using openapi-typescript-codegen -- do no edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+import type { InstagramDL__models__Story__ImageVersions2 } from './InstagramDL__models__Story__ImageVersions2';
+import type { InstagramDL__models__Story__SharingFrictionInfo } from './InstagramDL__models__Story__SharingFrictionInfo';
+import type { InstagramDL__models__Story__User } from './InstagramDL__models__Story__User';
+import type { InstagramDL__models__Story__VideoVersion } from './InstagramDL__models__Story__VideoVersion';
+import type { StoryBloksSticker } from './StoryBloksSticker';
+import type { StoryLinkSticker } from './StoryLinkSticker';
+import type { StoryLocation } from './StoryLocation';
+import type { StoryMusicSticker } from './StoryMusicSticker';
+export type InstagramDL__models__Story__Item = {
+    pk?: string;
+    id?: string;
+    viewer_count?: any;
+    video_duration?: number;
+    media_type?: number;
+    is_video?: boolean;
+    taken_at?: number;
+    has_audio?: boolean;
+    story_music_stickers?: Array<StoryMusicSticker>;
+    is_paid_partnership?: boolean;
+    sponsor_tags?: any;
+    reshared_story_media_author?: any;
+    story_app_attribution?: any;
+    story_feed_media?: any;
+    has_translation?: boolean;
+    is_dash_eligible?: number;
+    number_of_qualities?: number;
+    video_dash_manifest?: string;
+    boosted_status?: any;
+    sharing_friction_info?: InstagramDL__models__Story__SharingFrictionInfo;
+    media_overlay_info?: any;
+    image_versions2?: InstagramDL__models__Story__ImageVersions2;
+    organic_tracking_token?: string;
+    boost_unavailable_identifier?: any;
+    boost_unavailable_reason?: any;
+    product_type?: string;
+    has_liked?: boolean;
+    audience?: any;
+    can_viewer_reshare?: any;
+    expiring_at?: number;
+    ig_media_sharing_disabled?: boolean;
+    user?: InstagramDL__models__Story__User;
+    accessibility_caption?: any;
+    video_versions?: Array<InstagramDL__models__Story__VideoVersion>;
+    can_see_insights_as_brand?: boolean;
+    story_cta?: any;
+    viewers?: any;
+    can_reply?: boolean;
+    can_reshare?: boolean;
+    original_width?: number;
+    original_height?: number;
+    carousel_media_count?: any;
+    carousel_media?: any;
+    story_countdowns?: any;
+    story_questions?: any;
+    story_sliders?: any;
+    inventory_source?: any;
+    visual_comment_reply_sticker_info?: any;
+    story_bloks_stickers?: Array<StoryBloksSticker>;
+    story_link_stickers?: Array<StoryLinkSticker>;
+    story_hashtags?: any;
+    story_locations?: Array<StoryLocation>;
+    text_post_share_to_ig_story_stickers?: any;
+    preview?: any;
+    __typename?: string;
+};
+

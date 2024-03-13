@@ -1,0 +1,31 @@
+{
+  "name": "eros.rest-typescript",
+  "version": "1.0.0",
+  "description": "An API Wrapper to wrap around https://eros.rest to simply get data from all of your favorite social media services",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cop-discord/eros.rest-typescript.git"
+  },
+  "keywords": [
+    "Instagram",
+    "TikTok",
+    "Twitter",
+    "YouTube",
+    "Pinterest",
+    "Threads"
+  ],
+  "author": "cop-discord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cop-discord/eros.rest-typescript/issues"
+  },
+  "homepage": "https://github.com/cop-discord/eros.rest-typescript#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "form-data": "^4.0.0"
+  }
+}
